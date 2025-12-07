@@ -87,7 +87,7 @@ mode = st.sidebar.radio("", ["Registration Form", "Admin / Downloads"])
 # 🧾 REGISTRATION FORM
 # ....................................................
 if mode == "Registration Form":
-    st.title("CODING CLUB - Application Form")
+    st.title("CODING CLUB - Registration Form")
     st.markdown("Our Coding Club warmly welcomes you 🤝")
 
     name = st.text_input("Name")
@@ -138,3 +138,4 @@ else:
 
     elif password:
         st.error("Incorrect password!")
+
